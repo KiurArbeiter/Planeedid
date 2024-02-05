@@ -61,6 +61,10 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "dependencies": {
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.541, )",
@@ -70,6 +74,10 @@
               "target": "Package",
               "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Microsoft.UI.Xaml": {
+              "target": "Package",
+              "version": "[2.8.2, )"
             }
           },
           "imports": [
@@ -105,6 +113,10 @@
         "net6.0-ios16.0": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.541, )",
@@ -114,6 +126,10 @@
               "target": "Package",
               "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Microsoft.UI.Xaml": {
+              "target": "Package",
+              "version": "[2.8.2, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -154,6 +170,10 @@
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.541, )",
@@ -163,6 +183,10 @@
               "target": "Package",
               "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Microsoft.UI.Xaml": {
+              "target": "Package",
+              "version": "[2.8.2, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -204,6 +228,10 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "dependencies": {
+            "Microsoft.AspNet.WebPages": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
               "version": "[6.0.541, )",
@@ -213,6 +241,10 @@
               "target": "Package",
               "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Microsoft.UI.Xaml": {
+              "target": "Package",
+              "version": "[2.8.2, )"
             },
             "Microsoft.Windows.SDK.BuildTools": {
               "suppressParent": "All",
